@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite_toolsQA]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listners.ITestListnerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test QA1: Home Page Vaidation(failed)">
+    <classes>
+      <class name="testQA.validateHomePageFields">
+        <methods>
+          <include name="quitBrowser"/>
+          <include name="setup"/>
+          <include name="initialization"/>
+          <include name="verifyElementCardLabel"/>
+          <include name="generateReport"/>
+          <include name="extendReportInitialization"/>
+          <include name="checkStatus"/>
+        </methods>
+      </class> <!-- testQA.validateHomePageFields -->
+    </classes>
+  </test> <!-- Test QA1: Home Page Vaidation(failed) -->
+</suite> <!-- Failed suite [TestSuite_toolsQA] -->

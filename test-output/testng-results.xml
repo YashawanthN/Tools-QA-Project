@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-24T20:25:20 IST" name="TestSuite_toolsQA" finished-at="2024-09-24T20:25:32 IST" duration-ms="11956">
+    <groups>
+    </groups>
+    <test started-at="2024-09-24T20:25:20 IST" name="Test QA1: Home Page Vaidation" finished-at="2024-09-24T20:25:32 IST" duration-ms="11956">
+      <class name="testQA.validateHomePageFields">
+        <test-method is-config="true" signature="extendReportInitialization(org.testng.ITestContext)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:19 IST" name="extendReportInitialization" finished-at="2024-09-24T20:25:20 IST" duration-ms="472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1907874b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extendReportInitialization -->
+        <test-method is-config="true" signature="initialization(org.testng.ITestContext)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:20 IST" name="initialization" finished-at="2024-09-24T20:25:22 IST" duration-ms="2733" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1907874b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:23 IST" name="setup" finished-at="2024-09-24T20:25:28 IST" duration-ms="5875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1907874b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageUrl()[pri:1, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:28 IST" name="verifyHomePageUrl" finished-at="2024-09-24T20:25:28 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageUrl -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:28 IST" name="checkStatus" finished-at="2024-09-24T20:25:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testQA.validateHomePageFields.verifyHomePageUrl() throws java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyHomePageUrl status=SUCCESS method=validateHomePageFields.verifyHomePageUrl()[pri:1, instance:testQA.validateHomePageFields@6cf0e0ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:28 IST" name="setup" finished-at="2024-09-24T20:25:29 IST" duration-ms="971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1907874b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyElementcardIsDisplayed()[pri:2, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:29 IST" name="verifyElementcardIsDisplayed" finished-at="2024-09-24T20:25:30 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementcardIsDisplayed -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:30 IST" name="checkStatus" finished-at="2024-09-24T20:25:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testQA.validateHomePageFields.verifyElementcardIsDisplayed() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyElementcardIsDisplayed status=SUCCESS method=validateHomePageFields.verifyElementcardIsDisplayed()[pri:2, instance:testQA.validateHomePageFields@6cf0e0ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:30 IST" name="setup" finished-at="2024-09-24T20:25:30 IST" duration-ms="834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1907874b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyElementcardIsEnabled()[pri:3, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:30 IST" name="verifyElementcardIsEnabled" finished-at="2024-09-24T20:25:30 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementcardIsEnabled -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:30 IST" name="checkStatus" finished-at="2024-09-24T20:25:30 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testQA.validateHomePageFields.verifyElementcardIsEnabled()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyElementcardIsEnabled status=SUCCESS method=validateHomePageFields.verifyElementcardIsEnabled()[pri:3, instance:testQA.validateHomePageFields@6cf0e0ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:30 IST" name="setup" finished-at="2024-09-24T20:25:31 IST" duration-ms="863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1907874b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyElementCardLabel()[pri:4, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:31 IST" name="verifyElementCardLabel" finished-at="2024-09-24T20:25:31 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementCardLabel -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:31 IST" name="checkStatus" finished-at="2024-09-24T20:25:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testQA.validateHomePageFields.verifyElementCardLabel()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyElementCardLabel status=SUCCESS method=validateHomePageFields.verifyElementCardLabel()[pri:4, instance:testQA.validateHomePageFields@6cf0e0ba] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:31 IST" name="quitBrowser" finished-at="2024-09-24T20:25:32 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:testQA.validateHomePageFields@6cf0e0ba]" started-at="2024-09-24T20:25:32 IST" name="generateReport" finished-at="2024-09-24T20:25:33 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testQA.validateHomePageFields -->
+    </test> <!-- Test QA1: Home Page Vaidation -->
+  </suite> <!-- TestSuite_toolsQA -->
+</testng-results>
